@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini CRM</title>
+  <script src="https://telegram.org/js/telegram-web-app.js?61"></script>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <div class="muted">Mini CRM</div>
+        <h1 id="appTitle">Заявки</h1>
+      </div>
+      <div class="badge" id="roleBadge">user</div>
+    </header>
+
+    <nav class="tabs" id="tabs"></nav>
+
+    <section id="screen-home" class="screen active"></section>
+    <section id="screen-detail" class="screen"></section>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
